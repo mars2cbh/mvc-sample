@@ -1,7 +1,7 @@
-package kr.lasel.b2bmall.authapi.common.exception;
+package kr.lasel.template.mvcsample.common.exception;
 
-import kr.lasel.b2bmall.authapi.model.common.response.BaseResponse;
-import kr.lasel.b2bmall.authapi.model.common.response.ErrorResponse;
+import kr.lasel.template.mvcsample.model.common.response.BaseResponse;
+import kr.lasel.template.mvcsample.model.common.response.ErrorResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;

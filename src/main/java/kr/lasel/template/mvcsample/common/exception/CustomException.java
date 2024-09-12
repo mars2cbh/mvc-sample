@@ -1,4 +1,4 @@
-package kr.lasel.b2bmall.authapi.common.exception;
+package kr.lasel.template.mvcsample.common.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;

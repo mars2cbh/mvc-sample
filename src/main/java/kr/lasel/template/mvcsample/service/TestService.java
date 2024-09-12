@@ -1,4 +1,4 @@
-package kr.lasel.b2bmall.authapi.service;
+package kr.lasel.template.mvcsample.service;
 
 import org.springframework.stereotype.Service;
 

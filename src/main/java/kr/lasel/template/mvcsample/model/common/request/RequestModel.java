@@ -1,4 +1,4 @@
-package kr.lasel.b2bmall.authapi.model.common.request;
+package kr.lasel.template.mvcsample.model.common.request;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package kr.lasel.b2bmall.authapi.model.common.response;
+package kr.lasel.template.mvcsample.model.common.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

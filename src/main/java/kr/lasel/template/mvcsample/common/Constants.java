@@ -1,4 +1,4 @@
-package kr.lasel.b2bmall.authapi.common;
+package kr.lasel.template.mvcsample.common;
 
 public class Constants {
 

@@ -1,5 +1,7 @@
-package kr.lasel.b2bmall.authapi.controller;
+package kr.lasel.template.mvcsample.controller;
 
+import kr.lasel.template.mvcsample.model.common.response.BaseResponse;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,8 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
   @GetMapping("/")
-  public String test() {
-    return "Hello, World!";
+  public BaseResponse<?> test() {
+    return BaseResponse.builder()
+      .status(HttpStatus.OK.value())
+      .data("Hello, World!")
+      .build();
   }
 
 }

@@ -1,4 +1,4 @@
-package kr.lasel.b2bmall.authapi.config;
+package kr.lasel.template.mvcsample.config;
 
 import org.springframework.context.annotation.Configuration;
 
